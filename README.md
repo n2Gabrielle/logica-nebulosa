@@ -1,6 +1,6 @@
 # Protótipo Sistema Inteligente: Controle Nebuloso para a Rede Ferroviária do Rio de Janeiro
 
-Protótipo desenvolvido para a aplicação de sistemas inteligentes em cidades inteligentes, utilizando lógica nebulosa baseada no algoritmo **URT-FCA (Urban Rail Transport Fuzzy Control Algorithm)** para mitigar atrasos em cascata e gerenciar picos de lotação em horários de pico na malha ferroviária urbana (SuperVia / MetrôRio).
+Protótipo desenvolvido para a aplicação de sistemas inteligentes em cidades inteligentes. O controlador usa inferência nebulosa com **scikit-fuzzy**, baseada no algoritmo **URT-FCA (Urban Rail Transport Fuzzy Control Algorithm)**, para calcular ajustes de velocidade e tempo de parada conforme o fluxo de passageiros e os atrasos na malha ferroviária urbana (SuperVia / MetrôRio).
 
 ## Estrutura do repositório
 
@@ -23,4 +23,4 @@ Protótipo desenvolvido para a aplicação de sistemas inteligentes em cidades i
    python src/tempo_real_rio.py
    ```
 
-O script localiza o CSV relativamente à sua própria pasta, portanto também pode ser executado a partir de `src/`.
+O script localiza o CSV relativamente à sua própria pasta, portanto também pode ser executado a partir de `src/`. As dependências incluem o `scikit-fuzzy` e os pacotes necessários ao seu motor de inferência.
