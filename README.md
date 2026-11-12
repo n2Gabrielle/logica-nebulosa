@@ -1,4 +1,4 @@
-# Protótipo URT-FCA: Controle Nebuloso para a Rede Ferroviária do Rio de Janeiro
+# Protótipo Sistema Inteligente: Controle Nebuloso para a Rede Ferroviária do Rio de Janeiro
 
 Protótipo desenvolvido para a aplicação de sistemas inteligentes em cidades inteligentes, utilizando lógica nebulosa baseada no algoritmo **URT-FCA (Urban Rail Transport Fuzzy Control Algorithm)** para mitigar atrasos em cascata e gerenciar picos de lotação em horários de pico na malha ferroviária urbana (SuperVia / MetrôRio).
 
