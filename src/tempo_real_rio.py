@@ -141,7 +141,7 @@ def executar_simulacao():
 
         time.sleep(0.2)
 
-    print("=================================================================")
+    print("===============================================================")
     print("   RELATÓRIO CONSOLIDADO DE DESEMPENHO (SCI-KIT FUZZY)")
     print("=================================================================")
     print(f" Total de Ciclos Avaliados : {total_ciclos}")
